@@ -12,9 +12,11 @@ OpenVZ:
 本脚本会辅助你安装运行PT所需要的Java8，以及PM2。
 额外做的一件事情是，帮你下载了1.2.6.8的PT，并解压到了/root/ProfitTrailer目录下。
 
-# 特别说明
-运行完这个脚本后，你需要自行通过Winscp修改替换你自己的配置文件和策略文件。
 
 # 环境安装方法：
   wget -N --no-check-certificate https://github.com/lemonsx/runpt/raw/master/runpt.sh && bash runpt.sh
 
+# 特别说明
+运行完这个脚本后，你需要自行通过Winscp修改替换你自己的配置文件和策略文件。
+
+还有，PT使用过程中有问题的话不要找我啊。
