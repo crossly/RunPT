@@ -11,9 +11,9 @@
 # 跑PT推荐以下VPS
 
 KVM:
-RAM：512M 一年 18$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=58
-RAM：1024M 一年 28$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=148
+- RAM：512M 一年 18$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=58
+- RAM：1024M 一年 28$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=148
 OpenVZ:
-RAM：768M 一年 9.9$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=224 `推荐一个 BOT 买一个这个，挂多个 BOT，买多个。IP 保持唯一。`
-RAM：2048M 一年 19.9$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=225
-RAM：3072M 一年 25$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=227
+- RAM：768M 一年 9.9$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=224 `推荐一个 BOT 买一个这个，挂多个 BOT，买多个。IP 保持唯一。`
+- RAM：2048M 一年 19.9$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=225
+- RAM：3072M 一年 25$ https://www.alpharacks.com/myrack/aff.php?aff=1045&pid=227
