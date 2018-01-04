@@ -29,4 +29,4 @@ unzip ProfitTrailer.zip
 
 javac -version
 #clean files
-rm -rf nodesource_setup.sh ProfitTrailer.zip ProfitTrailerRuntime.sh
+rm -rf nodesource_setup.sh ProfitTrailer.zip runpt.sh
