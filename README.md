@@ -24,3 +24,7 @@ wget -N --no-check-certificate https://github.com/lemonsx/runpt/raw/master/runpt
 
 还有，PT使用过程中有问题的话不要找我啊。
 请加入Telegram中文群组 https://t.me/ProfitTrailer
+
+# 更新日志
+## 2018/01/09
+- 可选部署Billy的PT策略
