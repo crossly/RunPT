@@ -59,7 +59,7 @@ cat > $pm2_config_file <<EOF
         "ProfitTrailer.jar"
       ],
       "env": {
-        "SPRING_PROFILES_ACTIVE": "prod"dicators
+        "SPRING_PROFILES_ACTIVE": "prod"
       },
       "node_args": [],
       "log_date_format": "YYYY-MM-DD HH:mm Z",
