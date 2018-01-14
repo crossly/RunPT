@@ -11,6 +11,6 @@ printf "
 # Download newest PT
 wget https://github.com/taniman/profit-trailer/releases/download/v1.2.6.10/ProfitTrailer.zip
 unzip ProfitTrailer.zip -d /tmp/
-mv /tmp/ProfitTrailer/ProfitTrailer.jar /root/ProfitTrailer
-rm -rf /tmp/ProfitTrailer updatept.sh
-print "Done"
+mv /tmp/ProfitTrailer/ProfitTrailer.jar /root/ProfitTrailer/ProfitTrailer.jar
+rm -rf /tmp/ProfitTrailer updatept.sh ProfitTrailer.zip
+printf "Done!"
