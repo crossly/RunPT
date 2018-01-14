@@ -18,11 +18,11 @@ add-apt-repository "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial 
 
 curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
 bash nodesource_setup.sh
-apt-get install nodejs
+apt-get install nodejs -y
 apt-get update
-apt-get install oracle-java8-installer
+apt-get install oracle-java8-installer -y
 ln -s /usr/bin/nodejs /usr/bin/node
-apt-get install npm
+apt-get install npm -y
 npm install pm2@latest -g
 
 # Download 1.2.6.8 PT
