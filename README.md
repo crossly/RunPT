@@ -19,6 +19,10 @@ OpenVZ:
 wget -N --no-check-certificate https://github.com/lemonsx/runpt/raw/master/runpt.sh && bash runpt.sh
 ```
 
+基于RunPT脚本部署运行环境的，可以直接使用updatePT脚本更新到最新版本。目前是1.2.6.11
+```bash
+wget -N --no-check-certificate https://github.com/lemonsx/runpt/raw/master/updatept.sh && bash updatept.sh
+```
 # 特别说明
 运行完这个脚本后，你需要自行通过Winscp修改替换你自己的配置文件和策略文件。
 好吧，我还是给你们写了，看这里：https://medium.com/@xlemon/%E5%9C%A8vps%E4%B8%8A%E5%BF%AB%E9%80%9F%E9%83%A8%E7%BD%B2%E4%BD%A0%E7%9A%84profittrailer%E6%9C%BA%E5%99%A8%E4%BA%BA-4f7fe6e5b987
