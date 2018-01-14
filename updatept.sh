@@ -13,4 +13,5 @@ wget https://github.com/taniman/profit-trailer/releases/download/v1.2.6.10/Profi
 unzip ProfitTrailer.zip -d /tmp/
 mv /tmp/ProfitTrailer/ProfitTrailer.jar /root/ProfitTrailer/ProfitTrailer.jar
 rm -rf /tmp/ProfitTrailer updatept.sh ProfitTrailer.zip
-printf "Done!"
+
+printf "Done!\n"
