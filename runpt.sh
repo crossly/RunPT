@@ -14,7 +14,9 @@ printf "
 #update system
 apt-get update
 apt-get install curl build-essential default-jdk software-properties-common python-software-properties unzip -y
-add-apt-repository "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main"
+
+add-apt-repository ppa:webupd8team/java -y
+#add-apt-repository "deb http://ppa.launchpad.net/webupd8team/java/ubuntu xenial main"
 
 curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh
 bash nodesource_setup.sh
