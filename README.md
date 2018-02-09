@@ -17,7 +17,7 @@ OpenVZ:
 wget -N --no-check-certificate https://github.com/lemonsx/runpt/raw/master/runpt.sh && bash runpt.sh
 ```
 
-基于RunPT脚本部署运行环境的，可以直接使用updatePT脚本更新到最新版本。目前是1.2.6.14
+基于RunPT脚本部署运行环境的，可以直接使用updatePT脚本更新到最新版本。目前是1.2.6.11
 ```bash
 wget -N --no-check-certificate https://github.com/lemonsx/runpt/raw/master/updatept.sh && bash updatept.sh
 ```
