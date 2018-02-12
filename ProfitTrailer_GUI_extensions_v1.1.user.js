@@ -81,7 +81,7 @@
 
     function addCurrencySelector() {
         if ($('#currencySelector').length === 0) {
-            $.getJSON( "http://api.fixer.io/latest?base=USD", function( data ) {
+            $.getJSON( "https://api.fixer.io/latest?base=USD", function( data ) {
                 var items = "<option value='1'>USD</option>" ;
                 $.each( data.rates, function( key, val ) {
                     var selected = key === readCookie('PT_SELECTED_CURRENCY') ? 'selected' : '';
