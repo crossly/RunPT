@@ -8,7 +8,7 @@ printf "
 #                     Update ProfitTrailer to new version for RunPT                         #
 #############################################################################################
 "
-apt-get install curl -y
+apt-get install curl zip -y
 # Download newest PT
 wget https://github.com/taniman/profit-trailer/releases/download/v1.2.6.18/ProfitTrailer.zip
 unzip ProfitTrailer.zip -d /tmp/
