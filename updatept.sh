@@ -10,7 +10,7 @@ printf "
 "
 apt-get install curl zip -y
 # Download newest PT
-wget https://github.com/taniman/profit-trailer/releases/download/v1.2.6.18/ProfitTrailer.zip
+wget https://raw.githubusercontent.com/lemonsX/RunPT/master/ProfitTrailer-11.zip
 unzip ProfitTrailer.zip -d /tmp/
 # Start to mod PT
 unzip /tmp/ProfitTrailer/ProfitTrailer.jar -d /tmp/ProfitTrailer/unzip
