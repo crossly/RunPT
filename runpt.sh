@@ -32,8 +32,8 @@ ln -s /usr/bin/nodejs /usr/bin/node
 apt-get install npm -y
 npm install pm2@latest -g
 
-# Download 1.2.6.11 PT
-wget https://github.com/taniman/profit-trailer/releases/download/v1.2.6.11/ProfitTrailer.zip
+# Download PT
+curl https://api.github.com/repos/taniman/profit-trailer/releases/latest|grep -Po '"browser_download_url": *\K"[^"]*"'|sed 's/"\|,//g'|xargs wget -O ProfitTrailer.zip
 unzip ProfitTrailer.zip
 
 # Set VM Ram Usage
